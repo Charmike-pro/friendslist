@@ -4,17 +4,19 @@
         <title>Kaverilista</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <script src="java.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <body>
-        
-        <input type="text" id="txtVal" placeholder="Kirjoita kaverisi nimi!">
+<h1>Kaverilista</h1>
+<p>Kirjota alla olevaan laatikkoon jonkun kaverisi nimi ja paina nappia lisätäksesi</p>
+<p>nimen listaan. Listaan mahtuu vain ja ainoastaan 10 nimeä.</p>
+        <form name="form1" method="post" onsubmit="required()"></form>
+        <input name="text1" type="text" id="txtVal" placeholder="Kirjoita kaverisi nimi!" onfocus="this.value=''" onkeypress="return (event.charCode > 64 && 
+        event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)"/>
         <button onclick="addLi()">Lisää</button>
-        
-        <ul id="list">
-        </ul>
-        
-        <script src="java.js">
-            
-        </script>
-       
-    </body>
+        <ol class="center" id="list">
+        </ol>
+        </body>
 </html>

@@ -1,0 +1,35 @@
+ol{
+margin: 0px; 
+width: 100%;    
+overflow: hidden;
+max-height: 250px;
+}
+
+p{
+ font-family: Impact, 'Arial Narrow Bold', sans-serif;
+ font-size: 30px;
+ -webkit-text-stroke-width: 0.5px;
+ -webkit-text-stroke-color: black;
+}
+
+h1{
+
+    font-size: 50px;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: gray;
+}
+
+body {
+    margin: 50px 0; 
+    padding: 50px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    background-color: burlywood;
+    font-family: 'Baloo 2', cursive;
+}
+
+.center {
+    margin-left: -50px;
+    list-style-position: inside;
+}

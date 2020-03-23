@@ -1,4 +1,4 @@
-            function addLi()
+ function addLi()
             {
 
                 var txtVal = document.getElementById('txtVal').value,
@@ -9,4 +9,6 @@
                  liNode.appendChild(txtNode);
                  listNode.appendChild(liNode);
             
+            
+
             }
